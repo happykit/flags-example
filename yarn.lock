@@ -1014,10 +1014,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@happykit/flags@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-0.1.0.tgz#a6eac88dd772e4a602c7ceb55a0598c5fa9afab7"
-  integrity sha512-WRH9k8mCykJLuM1jszgc6BYLIMi26GDss+xbiCCNGu1REycmaItIOPhO/BkMaOTdGYlfOexYBpqwytJiTiJ23A==
+"@happykit/flags@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-0.3.0.tgz#5d021a1b9f9bf6e33282163345debcf6699f32ee"
+  integrity sha512-BXWT94r/j/w27AHC4xYG6eznzTfHMNl+ChpsbaKR5jhc/Ce1vqnnr+YTTuNtXfzgzIIaGHamQ6aZk/gwidlMcg==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
