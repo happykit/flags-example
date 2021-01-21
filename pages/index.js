@@ -72,14 +72,14 @@ export default function Home(props) {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://happykit.dev/solutions/flags?ref=flags-example"
           target="_blank"
           rel="noopener noreferrer"
         >
           Feature Flags by{" "}
           <img
             src="/happykit.svg"
-            alt="Vercel Logo"
+            alt="HappyKit Logo"
             className={styles.happykit}
           />
         </a>
