@@ -1,14 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { useFlags, getFlags } from "@happykit/flags";
+import { useFlags } from "@happykit/flags/client";
+import { getFlags } from "@happykit/flags/server";
 
-export async function getServerSideProps() {
-  const initialFlags = await getFlags();
-  return { props: { initialFlags } };
+export async function getServerSideProps(context) {
+  const { initialFlagState } = await getFlags({ context });
+  return { props: { initialFlagState } };
 }
 
 export default function Home(props) {
-  const flags = useFlags({ initialFlags: props.initialFlags });
+  const { flags } = useFlags({ initialState: props.initialFlagState });
 
   return (
     <div className={styles.container}>

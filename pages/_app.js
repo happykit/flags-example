@@ -1,7 +1,7 @@
 import "../styles/globals.css";
-import { configure } from "@happykit/flags";
+import { configure } from "@happykit/flags/config";
 
-configure({ clientId: process.env.NEXT_PUBLIC_FLAGS_CLIENT_ID });
+configure({ envKey: process.env.NEXT_PUBLIC_FLAGS_CLIENT_ID });
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
