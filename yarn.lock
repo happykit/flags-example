@@ -1787,10 +1787,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@happykit/flags@1.0.0-alpha.4":
-  version "1.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-1.0.0-alpha.4.tgz#a92df1cca4a3cdd91ce36d541b8a4e251d0a4ef6"
-  integrity sha512-4S1LLz3OS83He7ZjqBX1RfVlsLpuBPpWa0FnNPR4mQSaeakGit+Qo4Wzx7lwpvv+s9yUl+w+FF/SSFtwxDFTcA==
+"@happykit/flags@1.0.0-alpha.5":
+  version "1.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-1.0.0-alpha.5.tgz#b2e3e8efe91e6638a5958f47fa4dd3b213383eab"
+  integrity sha512-zSvpueGZSt0Lw8/9GGo17V4jWJFSxhv2vLEHpnN3iHw0cqyUjWQyiw+JJ9UcAD57vFEKqarh98mjK2o1Nf1ckA==
   dependencies:
     "@babel/core" "7.13.15"
     "@babel/preset-env" "7.13.15"
