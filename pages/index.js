@@ -19,7 +19,7 @@ export default function Home(props) {
       </Head>
 
       <main className={styles.main}>
-        {flags.dog ? (
+        {flags && flags.dog ? (
           <img
             width="400"
             src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
