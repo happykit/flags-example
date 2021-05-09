@@ -1,6 +1,6 @@
 {
   "name": "flags-example",
-  "version": "0.1.0",
+  "version": "0.1.0-private",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@happykit/flags": "1.0.0-alpha.8",
-    "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "@happykit/flags": "1.0.0-alpha.12",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }

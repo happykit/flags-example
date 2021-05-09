@@ -9,17 +9,17 @@ export async function getServerSideProps(context) {
 }
 
 export default function Home(props) {
-  const { flags } = useFlags({ initialState: props.initialFlagState });
+  const flagBag = useFlags({ initialState: props.initialFlagState });
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>HappyKit Flags Example</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        {flags && flags.dog ? (
+        {flagBag.flags.dog ? (
           <img
             width="400"
             src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
