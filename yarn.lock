@@ -59,10 +59,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@happykit/flags@1.0.0-alpha.12":
-  version "1.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-1.0.0-alpha.12.tgz#e07ac87bf445bd1dd68a0da6403683e5747a3bc4"
-  integrity sha512-eSFVjqWyzDT+Gk5X4nhvfnuQuWzkc6W/IW9s/66r/tFteOaULBssmONXQTl4k5AUdzJ/k/spwfAMziMWVg/xuw==
+"@happykit/flags@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-1.0.0.tgz#ef6b24de23419504650339e6f1038c94fa5367ce"
+  integrity sha512-akLWh19Ac4/cajnyDuK/9CRlycjgWMcKmwZBRYk8Kpo8GAbCaOoqg9kqtFUl4lRBFV2q7PPhbmhDlLblaCMKLg==
   dependencies:
     nanoid "3.1.22"
 
