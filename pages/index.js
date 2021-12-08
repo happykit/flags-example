@@ -74,7 +74,7 @@ export default function Home(props) {
 
       <footer className={styles.footer}>
         <a
-          href="https://happykit.dev/solutions/flags?ref=flags-example"
+          href="https://github.com/happykit/flags?ref=flags-example"
           target="_blank"
           rel="noopener noreferrer"
         >
