@@ -2,9 +2,11 @@ import "../styles/globals.css";
 import "../flags.config";
 import * as React from "react";
 import Head from "next/head";
-import { config } from "@happykit/flags/config";
+import { getConfig } from "@happykit/flags/config";
 
 function MyApp({ Component, pageProps }) {
+  const config = getConfig();
+
   return (
     <React.Fragment>
       <Head>
